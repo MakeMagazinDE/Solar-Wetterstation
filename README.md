@@ -9,7 +9,7 @@ mißt Leftdruck, -feuchtigkeit, Temperatur, Windgeschwindigkeit und -richtung
 
 ### Mit diesem Umbausatz kann der Ender 3 Objekt mit bis zu sieben Farben drucken.
 
-![Picture](https://github.com/MakeMagazinDE/Farb-3D-Drucker/blob/main/Farbdrucker.JPG)
+![Picture](https://github.com/MakeMagazinDE/Solar-Wetterstation/blob/main/_MG_9567.JPG)
 
 [Hier](https://github.com/Sakati84/3DPrintColorizer) finden Sie die Github-Seite mit der Software und den 3D-Druck-Dateien. 
 
