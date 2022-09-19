@@ -7,7 +7,7 @@ Maker Media GmbH
 
 mißt Leftdruck, -feuchtigkeit, Temperatur, Windgeschwindigkeit und -richtung
 
-### Diese Station wird ganzjährig rund um die Uuhr mit Solarstrom betrieben.
+### Diese Station wird ganzjährig rund um die Uhr mit Solarstrom betrieben.
 
 ![Picture](https://github.com/MakeMagazinDE/Solar-Wetterstation/blob/main/_MG_9567.JPG)
 
