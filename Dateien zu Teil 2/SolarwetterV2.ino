@@ -11,8 +11,8 @@
 const char *SSID = "MakeMesse";
 const char *PWD = "DiDumDiDei";
 const char* ntpServer = "pool.ntp.org";
-const long  gmtOffset_sec = 3600;
-const int   daylightOffset_sec = 3600;
+const char *timeZone = "CET-1CEST,M3.5.0,M10.5.0/3"; // https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv
+
 const int RecordTime = 3;
 const int SensorPin = 5;
 float temperatur = 0;
@@ -82,13 +82,12 @@ void setup() {
   ArduinoOTA.begin();
   
   // Internet-Zeit holen
-  configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
+  configTzTime(timeZone, ntpServer);
 
   //Server-Reaktionen definieren
   server.on("/init", getWebpage);
   server.on("/weather", getWeather);
   server.begin();
-
 }
 
 void loop() {
